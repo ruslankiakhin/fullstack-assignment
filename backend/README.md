@@ -1,6 +1,6 @@
 # Task Description
 
-Your task is to implement an API server with Swagger (python, flask) to replace mock-server from the frontend assignment.
+Your task is to implement an API server with Swagger (python, flask) to replace the `mock-server` from the frontend assignment.
 
 The server will provide the following endpoints:
 
@@ -26,6 +26,7 @@ The server will provide the following endpoints:
   Response Code: 200 or 201
   ```
 - Use decorators, classes for reusable parts
+- Use the `db.json` file to store data
 
 ## Bonus Tasks:
 
