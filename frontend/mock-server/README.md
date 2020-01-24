@@ -1,6 +1,6 @@
 # Mock-server
 
-This folder contains a simple mock server that can be used to accomplish the bonus task (fetching the data from a server). It uses [json-server](https://github.com/typicode/json-server) under the hood.
+This folder contains a simple mock server that can be used to accomplish the frontend task (fetching the data from a server). It uses [json-server](https://github.com/typicode/json-server) under the hood.
 
 ## How to run the server
 1. Install the dependencies:
