@@ -1,14 +1,17 @@
 # Task Description
 
-Your task is to prepare backend written on swagger (python, flask) to replace mock-server.
+Your task is to implement an API server with Swagger (python, flask) to replace mock-server from the frontend assignment.
 
-Endpoints:
+The server will provide the following endpoints:
 
-- Get services for fontend
+- Get list of services
+  ```
   Request: GET /services
   Response Code: 200
   Response Data: JSON output taken from db.json
-- Update/Add service to db.json
+  ```
+- Update/Add a service to db.json
+  ```
   Request: PUT /services, 
    {
       "service": "Service New",
@@ -21,11 +24,11 @@ Endpoints:
       ]
     }
   Response Code: 200 or 201
+  ```
 - Use decorators, classes for reusable parts
 
 ## Bonus Tasks:
 
-- Protect PUT endpoint using JWT 
+- Protect the PUT endpoint using JWT (Json Web Token)
 - Track all requests to endpoints in a log file
 - Write tests for your endpoints (unit, codestyle, api tests)
-
