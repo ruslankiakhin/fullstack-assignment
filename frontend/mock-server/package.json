@@ -1,0 +1,12 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Server to test api calls",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3003"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
